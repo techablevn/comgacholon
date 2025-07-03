@@ -11,7 +11,9 @@ img {
     border-radius: 20px;
 }
 
-button, input, textarea {
+button,
+input,
+textarea {
     border-radius: 20px !important;
 }
 
@@ -19,16 +21,66 @@ button, input, textarea {
     margin: 0.667em .667em !important;
 }
 
+.modal {
+    height: auto !important;
+}
+.modal-dialog, .modal-content {
+    border-radius: 20px !important;
+}
+.modal-title {
+    font-family: "CormorantGaramond-Italic-VariableFont_wght";
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: .5rem;
+}
+#modalOrderNow .btn {
+    font-family: 'Lexend', sans-serif;
+}
+#modalOrderNow .modal-body {
+    padding: 1rem 2rem 1rem 1rem !important;
+}
+input, textarea, button {
+    font-family: 'Lexend', sans-serif;
+}
+
+@media (max-width: 1200px) {
+    .cid-sFF0ciwnEL .iconfont-wrapper {
+        display: none !important;
+    }
+
+    .cid-sFF0ciwnEL .icons-menu {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .cid-sFF0ciwnEL .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 1px !important;
+    }
+
+    .cid-sFF0SGinka .mbr-section-title strong {
+        font-size: 3.5rem !important;
+        line-height: 1 !important;
+    }
+}
+
 @media (max-width: 991px) {
     .cid-sFF0ciwnEL .navbar .navbar-logo img {
         height: 3.5rem !important;
     }
-    .cid-sFF0SGinka .mbr-section-title strong{
-        font-size: 2.7rem !important;
+
+    .cid-sFF0SGinka .mbr-section-title strong {
+        font-size: 2.85rem !important;
     }
-    .cid-sFF0SGinka, .cid-sFF3kfZheU {
+
+    .cid-sFF3kfZheU .display-2 {
+        font-size: 2.5rem !important;
+    }
+
+    .cid-sFF0SGinka,
+    .cid-sFF3kfZheU {
         padding-top: 2rem !important;
     }
+
     .cid-uPNE2KADAz h5 strong {
         font-size: 1.2rem !important;
     }
