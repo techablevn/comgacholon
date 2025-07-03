@@ -43,11 +43,13 @@ input, textarea, button {
     font-family: 'Lexend', sans-serif;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .cid-sFF0ciwnEL .iconfont-wrapper {
         display: none !important;
     }
+}
 
+@media (max-width: 1200px) {
     .cid-sFF0ciwnEL .icons-menu {
         padding-left: 0 !important;
         padding-right: 0 !important;
