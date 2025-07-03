@@ -93,3 +93,13 @@ input, textarea, button {
         font-size: 16px !important;
     }
 }
+
+@media (max-width: 440px) {
+    .cid-sFF0SGinka .mbr-section-title strong {
+        font-size: 2rem !important;
+    }
+
+    .cid-sFF3kfZheU .display-2 {
+        font-size: 1.9rem !important;
+    }
+}
