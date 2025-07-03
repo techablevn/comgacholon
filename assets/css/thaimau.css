@@ -35,7 +35,7 @@ textarea {
 }
 #modalOrderNow .btn {
     font-family: 'Lexend', sans-serif;
-    padding: .9rem;
+    padding: .7rem 1.5rem;
 }
 #modalOrderNow .modal-body {
     padding: 1rem 2rem 1rem 1rem !important;
