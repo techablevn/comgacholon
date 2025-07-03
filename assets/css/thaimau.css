@@ -95,6 +95,10 @@ input, textarea, button {
 }
 
 @media (max-width: 440px) {
+    .cid-sFF0ciwnEL .navbar .navbar-logo img {
+        height: 3.8rem !important;
+    }
+
     .cid-sFF0SGinka .mbr-section-title strong {
         font-size: 2rem !important;
     }
