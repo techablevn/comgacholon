@@ -29,6 +29,9 @@ button, input, textarea {
     .cid-sFF0SGinka, .cid-sFF3kfZheU {
         padding-top: 2rem !important;
     }
+    .cid-uPNE2KADAz h5 strong {
+        font-size: 1.2rem !important;
+    }
 }
 
 @media (max-width: 991px) {
